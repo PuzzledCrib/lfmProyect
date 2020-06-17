@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    url(img/habilidades.jpg);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+nav {
+  a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  .dropdown-menu{
+    .dropdown-item{
+      a{
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+  background: linear-gradient(to bottom, transparent,  rgba(0, 0, 0, 0.329));
+  margin: auto;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 300;
+  cursor: pointer;
+}
+.box {
+  height: 60px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  min-width: 328px;
+  min-width: 328px;
+  vertical-align: middle;
+}
+
+.btn {
+  background-color: white;
+  border: 1px solid #cccccc;
+  color: #696969;
+  padding: 0.5rem;
+  text-transform: lowercase;
+  text-decoration: none;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 5rem;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    url(img/landingIMG.jpg);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.hero h1 {
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.habilidades{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:black;
+}
