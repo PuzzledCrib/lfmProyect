@@ -6,7 +6,6 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 
 function NavBar() {
-  let eventKey = 0;
   return (
     <header>
       <Navbar variant="tabs" fixed="top">
