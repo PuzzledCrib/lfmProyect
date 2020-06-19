@@ -13,9 +13,6 @@ const Trabajos = () => {
                 Juego desarrollado en el Game Jam 2018, junto a Alexis y Mitch.
                 Desarrollado en Unity con código C#
               </p>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
-              </a>
             </div>
           </div>
         </div>
@@ -28,9 +25,6 @@ const Trabajos = () => {
                 Página Web para buscar vehículos y poder compararlos.
                 Información sencilla de autos para el usuario
               </p>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
-              </a>
             </div>
           </div>
         </div>
@@ -43,9 +37,6 @@ const Trabajos = () => {
                 Ejemplo de Landing Page para el Taller Koki, con react, sass y bootstrap.
                 Protipo sin funcionalidad
               </p>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
-              </a>
             </div>
           </div>
         </div>
@@ -59,9 +50,6 @@ const Trabajos = () => {
                 en tiempos de Covid-19
                 
               </p>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
-              </a>
             </div>
           </div>
         </div>

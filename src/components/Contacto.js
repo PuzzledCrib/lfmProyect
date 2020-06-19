@@ -17,11 +17,11 @@ const Contacto = () => {
             <h3>Fotógrafo y Programador</h3>
           </div>
           <div class="col">
-            <a class="col" href="face">
+            <a class="col" href="https://www.facebook.com/fer.mirandacruz">
               <Icon icon={facebookOutlined} class="codePen" color="#48b461be" />
               Luis Fernando Miranda Cruz
             </a>
-            <a class="col" href="insta">
+            <a class="col" href="https://www.instagram.com/justasimple.photo/">
               <Icon
                 icon={instagramOutlined}
                 class="codePen"
@@ -29,17 +29,17 @@ const Contacto = () => {
               />
               Just a Simple Photo
             </a>
-            <a class="col" href="git">
+            <a class="col" href="https://github.com/PuzzledCrib">
               <Icon icon={githubOutlined} class="codePen" color="#48b461be" />
               PuzzledCrib
             </a>
           </div>
           <div class="col">
-            <a class="col" href="correo">
+            <a class="col" href="mailto: luiscruzmiranda@hotmail.com">
               <Icon icon={mailOutlined} class="codePen" color="#48b461be" />
               luiscruzmiranda@hotmail.com
             </a>
-            <a class="col" href="Twiiter">
+            <a class="col" href="https://twitter.com/LFMC_99">
               <Icon
                 icon={twitterSquareFilled}
                 class="codePen"
