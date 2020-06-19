@@ -8,6 +8,8 @@ $dark: rgba(0, 0, 0, 0.137);
   text-align: center;
 }
 
+/*  NAV  */
+
 nav {
   a {
     color: rgb(255, 255, 255);
@@ -31,22 +33,17 @@ nav {
   cursor: pointer;
 }
 
+a:hover {
+  color: lighten($secondary, 9);
+}
+
 .dropdown-item:hover {
   background: $secondary;
 }
 
-.box {
-  height: 60px;
-}
+/*  NAV  */
 
-.btn {
-  background-color: white;
-  border: 1px solid #cccccc;
-  color: #696969;
-  padding: 0.5rem;
-  text-transform: lowercase;
-  text-decoration: none;
-}
+/* LANDING */
 
 .hero {
   width: 100vw;
@@ -62,13 +59,17 @@ nav {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
+  h1 {
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
 }
 
-.hero h1 {
-  font-size: 5em;
-  margin-top: 0;
-  margin-bottom: 0.5em;
-}
+/* LANDING */
+
+/* HABILIDADES */
 
 .habilidades {
   width: 101vw;
@@ -96,9 +97,74 @@ nav {
     color: white;
   }
 
-  img{
+  img {
     width: 705.5px;
     height: 300px;
   }
+}
 
+/* HABILIDADES */
+
+/* CUALIDADES */
+
+.cualidades{
+  width: 101vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: top;
+  color: white;
+  background-image: url(img/cualidades.png);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  .col-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    padding-top: 20vh;
+    padding-left: 20vw;
+  }
+
+  .col-right{ 
+    padding-left: 1vw;
+    padding-top: 24vh;
+  }
+}
+
+/* CUALIDADES */
+
+/* CAPACIDADES */
+
+.capacidades{
+  width: 101vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: top;
+  color: white;
+  background-image: url(img/capacidades.jpg);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  .col-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10vw;
+    padding-bottom: 10vh;
+  }
+
+  .col-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30vh;
+  }
 }

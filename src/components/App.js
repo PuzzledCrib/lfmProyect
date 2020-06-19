@@ -2,6 +2,8 @@ import React from "react";
 import "./App.scss";
 import Nav from "./NavBar";
 import Habilidades from "./Habilidades";
+import Cualidades from "./Cualidades";
+import Capacidades from "./Capacidades";
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
@@ -13,6 +15,8 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/habilidades" exact component={Habilidades} />
+          <Route path="/cualidades" exact component={Cualidades} />
+          <Route path="/capacidades" exact component={Capacidades} />
         </Switch>
       </div>
     </BrowserRouter>

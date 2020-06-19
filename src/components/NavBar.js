@@ -9,8 +9,8 @@ function NavBar() {
   return (
     <header>
       <Navbar variant="tabs" fixed="top">
-        <Navbar.Brand href="#home" className="ml-5">
-          <Link to="/">LFM</Link>
+        <Navbar.Brand href="/" className="ml-5">
+          LFM
         </Navbar.Brand>
         <NavDropdown title="Sobre mí " id="nav-dropdown">
           <NavDropdown.Item eventKey="4.1">
