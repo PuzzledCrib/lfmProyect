@@ -1,11 +1,12 @@
 import React from "react";
 import ProgressBar from "react-bootstrap/ProgressBar";
-import Badge from 'react-bootstrap/Badge'
+import Badge from 'react-bootstrap/Badge';
+import Carousel from 'react-bootstrap/Carousel';
 
 const Habilidades = () => {
   return (
     <div class="row habilidades">
-      <div class="col-4">
+      <div class="col-4 col-left">
         <Badge pill variant="secondary">
           <h4 class="habilidad">JavaScript</h4>
         </Badge>{" "}
@@ -44,9 +45,65 @@ const Habilidades = () => {
         </div>
       </div>
 
-      <div class="col-7">
-        <h3>Consulta los mejores autos</h3>
-        <ProgressBar animated variant="success" now={45} />
+      <div class="col-7 col-right">
+      <Carousel className="carousel carousel-fade">
+                    <Carousel.Item>
+                    <img
+                         className="slider_img d-block w-100"
+                         src="https://360view.hum3d.com/original/Ford/Ford_Mustang_GT_1967_360_720_50-1.jpg"
+                         alt="First slide"
+                    />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                    <img
+                         className="slider_img d-block w-100"
+                         src="https://360view.hum3d.com/original/Ford/Ford_Mustang_GT_1967_360_720_50-8.jpg"
+                         alt="Second slide"
+                    />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                    <img
+                         className="slider_img d-block w-100"
+                         src="https://360view.hum3d.com/original/Ford/Ford_Mustang_GT_1967_360_720_50-14.jpg"
+                         alt="Third slide"
+                    />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                    <img
+                         className="slider_img d-block w-100"
+                         src="https://360view.hum3d.com/original/Ford/Ford_Mustang_GT_1967_360_720_50-20.jpg"
+                         alt="Fourth slide"
+                    />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                    <img
+                         className="slider_img d-block w-100"
+                         src="https://360view.hum3d.com/original/Ford/Ford_Mustang_GT_1967_360_720_50-26.jpg"
+                         alt="Fifth slide"
+                    />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                    <img
+                         className="slider_img d-block w-100"
+                         src="https://360view.hum3d.com/original/Ford/Ford_Mustang_GT_1967_360_720_50-33.jpg"
+                         alt="Sixth slide"
+                    />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                    <img
+                         className="slider_img d-block w-100"
+                         src="https://360view.hum3d.com/original/Ford/Ford_Mustang_GT_1967_360_720_50-39.jpg"
+                         alt="Seventh slide"
+                    />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                    <img
+                         className="slider_img d-block w-100"
+                         src="https://360view.hum3d.com/original/Ford/Ford_Mustang_GT_1967_360_720_50-45.jpg"
+                         alt="Eighth slide"
+                    />
+                    </Carousel.Item>  
+               </Carousel>
       </div>
     </div>
   );

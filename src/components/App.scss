@@ -1,15 +1,12 @@
-$secondary: #00b4cc;
+$secondary: #48b461be;
 
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
 .App {
+  width: 100vw;
+  height: 100vh;
   text-align: center;
-  background-image: url(img/habilidades.jpg);
-  background-size: 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 nav {
@@ -43,14 +40,6 @@ nav {
   height: 60px;
 }
 
-img {
-  height: auto;
-  max-width: 100%;
-  min-width: 328px;
-  min-width: 328px;
-  vertical-align: middle;
-}
-
 .btn {
   background-color: white;
   border: 1px solid #cccccc;
@@ -74,7 +63,7 @@ img {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
+  
 }
 
 .hero h1 {
@@ -84,17 +73,21 @@ img {
 }
 
 .habilidades{
-  width: 100vw;
+  width: 101vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   color:white;
-
+  background-image: url(img/habilidades.png);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
   .progressBar{
     width: 20vw;
-    margin-left: 6vw;
-    margin-top: 1vh;
+    margin: 1vh 0 1vh 5vw;
   }
 
   .habilidad{
