@@ -1,7 +1,11 @@
+$secondary: #00b4cc;
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
 .App {
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-    url(img/habilidades.jpg);
+  background-image: url(img/habilidades.jpg);
   background-size: 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -14,10 +18,11 @@ nav {
     text-decoration: none;
   }
   .dropdown-menu{
+    background: linear-gradient(to bottom, transparent,  rgba(0, 0, 0, 0.329));
     .dropdown-item{
       a{
         text-decoration: none;
-        color: black;
+        color: white;
       }
     }
   }
@@ -29,6 +34,11 @@ nav {
   z-index: 300;
   cursor: pointer;
 }
+
+.dropdown-item:hover{
+  background: $secondary;
+}
+
 .box {
   height: 60px;
 }
@@ -59,8 +69,7 @@ img {
   padding-bottom: 5rem;
   text-align: center;
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-    url(img/landingIMG.jpg);
+  background-image: url(img/landingIMG.jpg);
   background-size: 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -80,5 +89,15 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  color:black;
+  color:white;
+
+  .progressBar{
+    width: 20vw;
+    margin-left: 6vw;
+    margin-top: 1vh;
+  }
+
+  .habilidad{
+    color: white;
+  }
 }
