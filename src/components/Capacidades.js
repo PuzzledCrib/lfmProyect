@@ -12,16 +12,15 @@ const Capacidades = () => {
           Soy capaz de aprender rápido a través de la práctica y la constancia
           incluso puedo llegar a ser un poco, quizá bastante autodidacta cuando 
           me lo propongo. Puedo leer códigos ajenos, interpretrarlos e implementarlos
-          a mi manera y según lo que necesite, a mis trabajos.
+          a mi manera y según lo que necesite, a mis trabajos. Me gusta aceptar retos 
+          ya que puedo aprender más y es una manera de mantener la mente trabajando. 
+          Por otro lado en la parte social, no temo hablar en público y me va bien con 
+          el servicio al cliente gracias a mi experiencia en tiendas.
+
         </p>
         
         <p>
-          Soy una persona muy paciente, dificilmente algo me desestabilice,
-          siempre trato de mantener la inteligencia emocional ya que considero que
-          tomar decisiones con la cabeza fría es más sabio que actuar por impulso. En
-          momentos donde se debe actuar rápido la mayor parte del tiempo logro hacerlo
-          y hasta depués de que ha sido resuelto el problema, tiendo a liberar toda esa
-          presión escribiendo poemas o descansando.
+          
         </p>
       </div>
     </div>

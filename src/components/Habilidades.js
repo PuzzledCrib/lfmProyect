@@ -94,6 +94,7 @@ const Habilidades = () => {
                 src="img/1.jpg"
                 class="card-img-top"
                 alt="Fotografía de un atardecer en Bajamar"
+                style={{ objectFit: "cover" }}
               />
               <div class="card-footer bg-dark"></div>
             </div>
@@ -111,6 +112,7 @@ const Habilidades = () => {
                 src="img/12.png"
                 class="card-img-top"
                 alt="Juego Caza al Venado en Unity"
+                style={{ objectFit: "cover" }}
               />
               <div class="card-footer bg-dark"></div>
             </div>
@@ -130,6 +132,7 @@ const Habilidades = () => {
                 src="img/12.jpg"
                 class="card-img-top"
                 alt="Juego Escaleras y Serpientes en Java"
+                style={{ objectFit: "cover" }}
               />
               <div class="card-footer bg-dark"></div>
             </div>
@@ -147,6 +150,7 @@ const Habilidades = () => {
                 src="img/9.jpeg"
                 class="card-img-top"
                 alt="Fotografía al Gran Cañon"
+                style={{ objectFit: "cover" }}
               />
               <div class="card-footer bg-dark"></div>
             </div>
@@ -163,9 +167,10 @@ const Habilidades = () => {
                 <h6 class="card-title mb-2">2019</h6>
               </div>
               <img
-                src="img/11.jpg"
+                src="img/6.jpeg"
                 class="card-img-top"
                 alt="Fotografía a las faldas del Volcán Poás"
+                style={{ objectFit: "cover" }}
               />
               <div class="card-footer bg-dark"></div>
             </div>

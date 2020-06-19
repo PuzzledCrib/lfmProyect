@@ -107,7 +107,7 @@ a:hover {
 
 /* CUALIDADES */
 
-.cualidades{
+.cualidades {
   width: 101vw;
   height: 100vh;
   display: flex;
@@ -115,13 +115,13 @@ a:hover {
   justify-content: space-evenly;
   align-items: top;
   color: white;
-  background-image: url(img/cualidades.png);
+  background-image: url(img/cualidades.jpg);
   background-size: 100%;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
-  .col-left{
+  .col-left {
     display: flex;
     flex-direction: column;
     justify-content: top;
@@ -129,7 +129,7 @@ a:hover {
     padding-left: 20vw;
   }
 
-  .col-right{ 
+  .col-right {
     padding-left: 1vw;
     padding-top: 24vh;
   }
@@ -139,7 +139,7 @@ a:hover {
 
 /* CAPACIDADES */
 
-.capacidades{
+.capacidades {
   width: 101vw;
   height: 100vh;
   display: flex;
@@ -153,7 +153,7 @@ a:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
 
-  .col-left{
+  .col-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,10 +161,101 @@ a:hover {
     padding-bottom: 10vh;
   }
 
-  .col-right{
+  .col-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 30vh;
+    padding-top: 17vh;
+    padding-right: 1.5vw;
   }
 }
+
+/* CAPACIDADES */
+
+/* TRABAJOS */
+
+.trabajos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 20vh;
+  color: black;
+  background: linear-gradient(to bottom, #261c43, #534054);
+
+  .trabajo {
+    width: 90vw;
+    height: 100vh;
+  }
+}
+
+/* TRABAJOS */
+
+/* PASATIEMPOS */
+
+.pasatiempos {
+  width: 101vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: top;
+  color: white;
+  background-image: url(img/capacidades.jpg);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* PASATIEMPOS */
+
+/* CONTACTO */
+
+.contacto {
+  width: 100.91vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  color: white;
+  background-image: url(img/contacto.jpg);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $secondary;
+  }
+
+  .col-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .codePen {
+    font-size: xx-large;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 3vh;
+  }
+}
+
+/* CONTACTO */

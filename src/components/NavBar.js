@@ -26,17 +26,14 @@ function NavBar() {
           </NavDropdown.Item>
         </NavDropdown>
         <Nav.Item>
-          <Nav.Link eventKey="1" href="#/home">
+          <Nav.Link eventKey="1" href="/trabajos">
             Trabajos
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="2" title="Item" href="#/home">
-            Pasatiempos
+          <Nav.Link eventKey="3" href="/contacto">
+            Contacto
           </Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="3">Contacto</Nav.Link>
         </Nav.Item>
       </Navbar>
     </header>
